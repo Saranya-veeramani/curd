@@ -1,0 +1,22 @@
+GET  http://127.0.0.1:3031/students
+
+GET  http://127.0.0.1:3000/saranya/13
+###
+POST   http://127.0.0.1:3031/students
+Content-Type: application/json
+{
+ "name":"Velnalan",
+ "email":"velnalan@gmail.com",
+ "phonenumber":"9657934564",
+"address":"28", "abc nagar" 
+}
+###
+DELETE  http://127.0.0.1:3031/students
+###
+PATCH http://127.0.0.1:3031/students
+{
+ "name":"anbu",
+ "email":"anbu@gmail.com",
+ "phonenumber":"96579356564",
+"address":"28", "abc nagar" 
+}
